@@ -1,0 +1,602 @@
+{
+    /*all-levels: {
+        time
+    }*/
+    level-1: {
+        // miliseconds
+        time: 35000
+        background: "bg-level-1"
+        fromSides: true,
+        frozenAmount: 3,
+        levelName: REINO HELADO DIA
+        levelBackground: "bg-level-1"
+        
+        fruits: [
+            { type:"greenapple"
+            need: 4
+            extra: 2 }
+
+            { 
+                type:"redapple"
+                need: 4
+                extra: 2 
+            }
+
+            { type:"orange", need: 5, extra: 3 }
+        ]
+        // total fruits = 6 + 6 + 8 = 20
+
+        frozenProbability: 0.1
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 8000
+        }
+        
+        waves: [
+            { pattern: [1,1,1], amount: 2}
+            { pattern: [2,1], amount: 2}
+            { pattern: [2], amount: 1}
+            { pattern: [3], amount: 1}
+        
+            
+            // total elements in waves = 
+            // total waves = 
+
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "gunter", need: 5, extra: 1}
+
+        bonuses: [
+            {type: "filterfrozenking", amount: 7}
+            {type: "stickerUnicorn", amount: 7}
+        ]
+        extraBonusesPercentage: 0
+    },
+    
+    level-2: {
+        
+        // miliseconds
+        time: 37000
+        levelName: REINO HELADO NOCHE
+        levelBackground: "bg-level-2"
+        fruits: [
+            { type:"grape"
+            need: 4
+            extra: 2 }
+
+            { 
+                type:"redapple"
+                need: 6
+                extra: 3 
+            }
+
+            { type:"mango", need: 7, extra: 2 }
+        ]
+        // total fruits = 6 + 9 + 9 = 24
+
+
+        frozenProbability: 0.1
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 8000
+        }
+        
+        waves: [
+            { pattern: [1,2,1], amount: 2}
+            { pattern: [3], amount: 4}
+            { pattern: [1,1,2,1], amount: 3}
+            { pattern: [2], amount: 4}
+
+            // total elements in waves = 
+            // total waves = 
+        ]
+        
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "gunter", need: 5, extra: 1}
+
+        bonuses: [
+            {type: "filterfrozenking", amount: 8}
+            {type: "stickerUnicorn", amount: 9}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-3: {
+        
+        // miliseconds
+        time: 40000
+        levelName: REINO DULCE DIA
+        levelBackground: "bg-level-3"
+        fruits: [
+            { type:"guava"
+            need: 7
+            extra: 2 }
+
+            { 
+                type:"orange"
+                need: 5
+                extra: 3 
+            }
+
+            { type:"peach", need: 10, extra: 2 }
+        ]
+        // total fruits = 9 + 8 + 12 = 29
+
+
+        frozenProbability: 0.1
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 8000
+        }
+        
+        waves: [
+            { pattern: [1,1,2], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1,1], amount: 1}
+            { pattern: [1,2], amount: 1}
+            { pattern: [1], amount: 1}
+            { pattern: [1,1,1], amount: 1}
+            { pattern: [3], amount: 1}
+            
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "bubblegum", need: 5, extra: 1}
+
+        bonuses: [
+            {type: "filterfrozenking", amount: 5}
+            {type: "mask", amount: 8}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-4: {
+        
+        // miliseconds
+        time: 50000
+        levelName: REINO DULCE NOCHE
+        levelBackground: "bg-level-4"
+        fruits: [
+            { type:"guava"
+            need: 8
+            extra: 3 }
+
+            { 
+                type:"grape"
+                need: 8
+                extra: 2 
+            }
+
+            { type:"mango", need: 8, extra: 4 }
+        ]
+        // total fruits = 11 + 10 + 12 = 33
+
+
+
+        frozenProbability: 0.3
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 7000
+        }
+        
+        waves: [
+            { pattern: [1,1,2], amount: 1}
+            { pattern: [2,1,1], amount: 1}
+            { pattern: [4], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1], amount: 1}
+            { pattern: [1,1], amount: 2}
+            { pattern: [1,2], amount: 2}
+            { pattern: [3], amount: 2}
+    
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "bubblegum", need: 5, extra: 2}
+
+        bonuses: [
+            {type: "mask", amount: 8}
+            {type: "stickerBeemo", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-5: {
+        
+        // miliseconds
+        time: 60000
+        levelName: REINO FUEGO DIA
+        levelBackground: "bg-level-5"
+        fruits: [
+            { type:"orange"
+            need: 8
+            extra: 3 }
+
+            { 
+                type:"peach"
+                need: 11
+                extra: 2 
+            }
+
+            { type:"redapple", need: 13, extra: 3 }
+        ]
+        // total fruits = 11 + 13 + 16 = 40
+
+        frozenProbability: 0.5
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 7000
+        }
+        
+        waves: [
+            { pattern: [1,1,1], amount: 2}
+            { pattern: [2,1], amount: 1}
+            { pattern: [1,2], amount: 1}
+            { pattern: [3], amount: 1}
+            { pattern: [1,1], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1], amount: 1}
+            { pattern: [2,3,1], amount: 2}
+   
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "flame", need: 5, extra: 2}
+
+        bonuses: [
+            {type: "mask", amount: 4}
+            {type: "stickerBeemo", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-6: {
+        
+        // miliseconds
+        time: 69000
+        levelName: REINO FUEGO NOCHE
+        levelBackground: "bg-level-6"
+        fruits: [
+            { type:"peach"
+            need: 11
+            extra: 3 }
+
+            { 
+                type:"greenapple"
+                need: 11
+                extra: 3 
+            }
+
+            { type:"mango", need: 13, extra: 5 }
+        ]
+        // total fruits = 14 + 14 + 18 = 46
+
+
+        frozenProbability: 0.5
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 6000
+        }
+        
+        waves: [
+            { pattern: [2,1], amount: 2}
+            { pattern: [1,1], amount: 1}
+            { pattern: [3], amount: 1}
+            { pattern: [1,1,3], amount: 1}
+            { pattern: [2,1], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1,1,1], amount: 1}
+            { pattern: [4,1], amount: 1}
+            { pattern: [5], amount: 2}
+            
+            
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "flame", need: 5, extra: 2}
+
+        bonuses: [
+            {type: "stickerfrozenking", amount: 10}
+            {type: "cuffs", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-7: {
+        
+        // miliseconds
+        time: 77000
+        levelName: NOCHEOSFERA
+        levelBackground: "bg-level-7"
+        fruits: [
+            { type:"guava"
+            need: 15
+            extra: 5 }
+
+            { 
+                type:"grape"
+                need: 8
+                extra: 3 
+            }
+
+            { type:"redapple", need: 17, extra: 5 }
+        ]
+        // total fruits = 20 + 11 + 22 = 53
+
+        frozenProbability: 0.6
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 6000
+        }
+        
+        waves: [
+            { pattern: [3], amount: 1}
+            { pattern: [1,1,2], amount: 2}
+            { pattern: [1,1,3], amount: 1}
+            { pattern: [4], amount: 1}
+            { pattern: [1,2,1], amount: 1}
+            { pattern: [2,1,1], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1,1], amount: 1}
+            { pattern: [1,3,1], amount: 1}
+            { pattern: [2,3,2], amount: 2}
+            { pattern: [3,1], amount: 1}
+            
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "marceline", need: 5, extra: 2}
+
+        bonuses: [
+            {type: "stickerfrozenking", amount: 10}
+            {type: "cuffs", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-8: {
+        
+        // miliseconds
+        time: 82000
+        levelName: NOCHEOSFERA
+        levelBackground: "bg-level-8"
+        fruits: [
+            { type:"orange"
+            need: 15
+            extra: 4 }
+
+            { 
+                type:"greenapple"
+                need: 13
+                extra: 5 
+            }
+
+            { type:"mango", need: 15, extra: 5 }
+        ]
+        // total fruits = 19 + 18 + 20 = 57
+
+        frozenProbability: 0.6
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 5000
+        }
+        
+        waves: [
+            { pattern: [1,2], amount: 1}
+            { pattern: [1,2,3], amount: 1}
+            { pattern: [4], amount: 1}
+            { pattern: [1,2,1], amount: 2}
+            { pattern: [3], amount: 1}
+            { pattern: [1,1,1], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1,2], amount: 1}
+            { pattern: [1,3,1], amount: 1}
+            { pattern: [2,1], amount: 1}
+            { pattern: [3,1,1], amount: 1}
+            { pattern: [2,2,2], amount: 1}
+            { pattern: [3,1,2], amount: 2}
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+      
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "marceline", need: 5, extra: 3}
+
+        bonuses: [
+            {type: "stickerBubblegum", amount: 10}
+            {type: "cuffs", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-9: {
+        
+        // miliseconds
+        time: 86000
+        levelName: REINO GRUMOSO
+        levelBackground: "bg-level-9"
+        fruits: [
+            { type:"guava"
+            need: 16
+            extra: 5 }
+
+            { 
+                type:"grape"
+                need: 12
+                extra: 4 
+            }
+
+            { type:"peach", need: 20, extra: 6 }
+        ]
+        // total fruits = 21 + 16 + 26 = 63
+
+        frozenProbability: 0.5
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 5000
+        }
+        
+        waves: [
+            { pattern: [1,2,1], amount: 2}
+            { pattern: [3], amount: 1}
+            { pattern: [1,2], amount: 1}
+            { pattern: [2,1,2], amount: 1}
+            { pattern: [3], amount: 1}
+            { pattern: [1,1,1], amount: 1}
+            { pattern: [4], amount: 1}
+            { pattern: [2,1], amount: 1}
+            { pattern: [2,1.1], amount: 1}
+            { pattern: [2,3], amount: 1}
+            { pattern: [2,2], amount: 1}
+            { pattern: [3,1,2], amount: 1}
+            { pattern: [5], amount: 2}
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "lumpy", need: 5, extra: 3}
+
+        bonuses: [
+            {type: "stickerBubblegum", amount: 10}
+            {type: "accesorysword", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+    
+    level-10: {
+        
+        // miliseconds
+        time: 88000
+        levelName: REINO GRUMOSO
+        levelBackground: "bg-level-10"
+        fruits: [
+            { type:"grape"
+            need: 15
+            extra: 6 }
+
+            { 
+                type:"greenapple"
+                need: 19
+                extra: 8 
+            }
+
+            { type:"mango", need: 16, extra: 7 }
+        ]
+        // total fruits = 21 + 27 + 23 = 71
+
+        frozenProbability: 0.7
+        
+        frozenMinigame: {
+        maxHeat : 100,
+        heatPerClick : 15,
+        heatLostPerSecond : 30,
+        timeToDefrost : 4000
+        }
+        
+        waves: [
+            { pattern: [1,2,1], amount: 1}
+            { pattern: [2,2], amount: 1}
+            { pattern: [1,3,1], amount: 1}
+            { pattern: [1,1,3], amount: 2}
+            { pattern: [2,1], amount: 1}
+            { pattern: [1,2], amount: 1}
+            { pattern: [3], amount: 1}
+            { pattern: [2], amount: 1}
+            { pattern: [1,1,1], amount: 2}
+            { pattern: [2,1,2], amount: 1}
+            { pattern: [2,1,1], amount: 1}
+            { pattern: [2,2], amount: 1}
+            { pattern: [6], amount: 2}
+            { pattern: [2,3], amount: 1}
+
+            
+            // total elements in waves = 
+            // total waves = 
+        ]
+
+        // recomended autofill: [1]
+        autofill: true
+        autofillWith: [1]
+
+        character: {type: "lumpy", need: 5, extra: 3}
+
+        bonuses: [
+            {type: "stickerUnicorn", amount: 4}
+            {type: "accesorysword", amount: 10}
+        ]
+        extraBonusesPercentage: 0
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "frames": [
+        {
+            "filename": "frozen-jake-escape2",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-stand1",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 335,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-a1",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 0,
+                "y": 335
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-a2",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 335,
+                "y": 335
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-b1",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 670,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-b2",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 670,
+                "y": 335
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-c1",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 0,
+                "y": 670
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-c2",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 335,
+                "y": 670
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "frozen-jake-escape1",
+            "frame": {
+                "w": 335,
+                "h": 335,
+                "x": 670,
+                "y": 670
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

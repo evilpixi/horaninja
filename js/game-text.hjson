@@ -1,0 +1,81 @@
+{
+    BootScene: {
+        loading: "CARGANDO..."
+    }
+    SplashScene: {
+        buttonPlay: "JUGAR"
+        buttonHowToPlay: "¿CÓMO JUGAR?"
+    }
+    HelpScene: {
+        title: "¿CÓMO JUGAR?"
+        help1: 
+            '''
+            ARRASTRA A JAKE
+            PARA CORTAR LAS FRUTAS
+            GANAR PUNTOS
+            '''
+        help2: 
+            '''
+            LIBERA STICKERS, FILTROS
+            Y ACCESORIOS CORTANDO BURBUJAS,
+            ASÍ PODRÁS TENERLOS DISPONIBLES
+            EN EL SITIO
+            '''
+        help3: 
+            '''
+            EVITA LOS FRUTOS CONGELADOS
+            POR EL REY HELADO YA QUE
+            CONGELARÁN A JAKE
+            '''
+        help4: 
+            '''
+            SI JAKE HA SIDO CONGELADO,
+            LIBÉRALO TOCANDO MUCHAS VECES
+            Y EN EL MENOR TIEMPO PARA
+            SEGUIR CORTANDO FRUTOS
+            '''
+    }
+    LevelSelectionScene: {
+        title: "NIVELES"
+    }
+    FrozenMinigameScene: {
+        touch: "¡TOCA RÁPIDO PARA\nROMPER EL HIELO!"
+        youMadeIt: "¡LO LOGRASTE!"
+    }
+    ArchievementsScene: {
+        title: "¡LOGROS!"
+        stars: "ESTRELLAS"
+        stickers: "STICKERS"
+        filters: "FILTROS"
+        accesories: "ACCESORIOS"
+        characters: "PERSONAJES"
+        album: "¡REVISA\nTU ÁLBUM!"
+        profile: "¡REVISA\nTU PERFIL!"
+        here: "AQUÍ"
+    }
+    LevelEndScene: {
+        titleWin: "¡GANASTE!"
+        titleLost: "¡PERDISTE!"
+        combo: "COMBO"
+        level: "NIVEL "
+        bonus: "BONUS"
+        time: "TIEMPO"
+        currentScore: "PUNTAJE ACTUAL"
+        highScore: "PUNTAJE RECORD"
+        accumulate: "ACUMULADO"
+        pts: " PTS"
+        tryAgain: "INTÉNTALO\nDE NUEVO"
+        jakeCantFree: "JAKE NO PUDO\nLIBERARSE"
+        timeEnd: "FINALIZÓ TU TIEMPO"
+    }
+    PrelevelScene: {
+        title1: "OBJETIVOS"
+        title2: "DE NIVEL"
+        level: "NIVEL "
+        objetive: "RECOLECTA\nY LIBERA"
+        remember: "¡RECUERDA COLECCIONAR TODO!"
+    }
+    OptionsScene: {
+        title: "OPCIONES"
+    }
+}
