@@ -9,7 +9,6 @@
         fromSides: true,
         frozenAmount: 3,
         levelName: REINO HELADO DIA
-        levelBackground: "bg-level-1"
         
         fruits: [
             { type:"greenapple"
@@ -54,8 +53,8 @@
         character: {type: "gunter", need: 5, extra: 1}
 
         bonuses: [
-            {type: "filterfrozenking", amount: 7}
-            {type: "stickerUnicorn", amount: 7}
+            {type: "filter-1", amount: 7}
+            {type: "sticker-3", amount: 7}
         ]
         extraBonusesPercentage: 0
     },
@@ -65,7 +64,7 @@
         // miliseconds
         time: 37000
         levelName: REINO HELADO NOCHE
-        levelBackground: "bg-level-2"
+        background: "bg-level-2"
         fruits: [
             { type:"grape"
             need: 4
@@ -108,8 +107,8 @@
         character: {type: "gunter", need: 5, extra: 1}
 
         bonuses: [
-            {type: "filterfrozenking", amount: 8}
-            {type: "stickerUnicorn", amount: 9}
+            {type: "filter-1", amount: 8}
+            {type: "sticker-3", amount: 9}
         ]
         extraBonusesPercentage: 0
     }
@@ -119,7 +118,7 @@
         // miliseconds
         time: 40000
         levelName: REINO DULCE DIA
-        levelBackground: "bg-level-3"
+        background: "bg-level-3"
         fruits: [
             { type:"guava"
             need: 7
@@ -166,8 +165,8 @@
         character: {type: "bubblegum", need: 5, extra: 1}
 
         bonuses: [
-            {type: "filterfrozenking", amount: 5}
-            {type: "mask", amount: 8}
+            {type: "filter-1", amount: 5}
+            {type: "accesory-1", amount: 8}
         ]
         extraBonusesPercentage: 0
     }
@@ -177,7 +176,7 @@
         // miliseconds
         time: 50000
         levelName: REINO DULCE NOCHE
-        levelBackground: "bg-level-4"
+        background: "bg-level-4"
         fruits: [
             { type:"guava"
             need: 8
@@ -226,8 +225,8 @@
         character: {type: "bubblegum", need: 5, extra: 2}
 
         bonuses: [
-            {type: "mask", amount: 8}
-            {type: "stickerBeemo", amount: 10}
+            {type: "accesory-1", amount: 8}
+            {type: "sticker-2", amount: 10}
         ]
         extraBonusesPercentage: 0
     }
@@ -237,7 +236,7 @@
         // miliseconds
         time: 60000
         levelName: REINO FUEGO DIA
-        levelBackground: "bg-level-5"
+        background: "bg-level-5"
         fruits: [
             { type:"orange"
             need: 8
@@ -284,8 +283,8 @@
         character: {type: "flame", need: 5, extra: 2}
 
         bonuses: [
-            {type: "mask", amount: 4}
-            {type: "stickerBeemo", amount: 10}
+            {type: "accesory-1", amount: 4}
+            {type: "sticker-2", amount: 10}
         ]
         extraBonusesPercentage: 0
     }
@@ -295,7 +294,7 @@
         // miliseconds
         time: 69000
         levelName: REINO FUEGO NOCHE
-        levelBackground: "bg-level-6"
+        background: "bg-level-6"
         fruits: [
             { type:"peach"
             need: 11
@@ -345,8 +344,8 @@
         character: {type: "flame", need: 5, extra: 2}
 
         bonuses: [
-            {type: "stickerfrozenking", amount: 10}
-            {type: "cuffs", amount: 10}
+            {type: "sticker-1", amount: 10}
+            {type: "accesory-2", amount: 10}
         ]
         extraBonusesPercentage: 0
     }
@@ -356,7 +355,7 @@
         // miliseconds
         time: 77000
         levelName: NOCHEOSFERA
-        levelBackground: "bg-level-7"
+        background: "bg-level-7"
         fruits: [
             { type:"guava"
             need: 15
@@ -406,8 +405,8 @@
         character: {type: "marceline", need: 5, extra: 2}
 
         bonuses: [
-            {type: "stickerfrozenking", amount: 10}
-            {type: "cuffs", amount: 10}
+            {type: "sticker-1", amount: 10}
+            {type: "accesory-2", amount: 10}
         ]
         extraBonusesPercentage: 0
     }
@@ -417,7 +416,7 @@
         // miliseconds
         time: 82000
         levelName: NOCHEOSFERA
-        levelBackground: "bg-level-8"
+        background: "bg-level-8"
         fruits: [
             { type:"orange"
             need: 15
@@ -468,8 +467,8 @@
         character: {type: "marceline", need: 5, extra: 3}
 
         bonuses: [
-            {type: "stickerBubblegum", amount: 10}
-            {type: "cuffs", amount: 10}
+            {type: "sticker-4", amount: 10}
+            {type: "accesory-2", amount: 10}
         ]
         extraBonusesPercentage: 0
     }
@@ -479,7 +478,7 @@
         // miliseconds
         time: 86000
         levelName: REINO GRUMOSO
-        levelBackground: "bg-level-9"
+        background: "bg-level-9"
         fruits: [
             { type:"guava"
             need: 16
@@ -530,8 +529,8 @@
         character: {type: "lumpy", need: 5, extra: 3}
 
         bonuses: [
-            {type: "stickerBubblegum", amount: 10}
-            {type: "accesorysword", amount: 10}
+            {type: "sticker-4", amount: 10}
+            {type: "accesory-3", amount: 10}
         ]
         extraBonusesPercentage: 0
     }
@@ -541,7 +540,7 @@
         // miliseconds
         time: 88000
         levelName: REINO GRUMOSO
-        levelBackground: "bg-level-10"
+        background: "bg-level-10"
         fruits: [
             { type:"grape"
             need: 15
@@ -594,8 +593,8 @@
         character: {type: "lumpy", need: 5, extra: 3}
 
         bonuses: [
-            {type: "stickerUnicorn", amount: 4}
-            {type: "accesorysword", amount: 10}
+            {type: "sticker-3", amount: 4}
+            {type: "accesory-3", amount: 10}
         ]
         extraBonusesPercentage: 0
     }

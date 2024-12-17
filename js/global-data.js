@@ -1,7 +1,7 @@
-class DATA {}
+class DATA { }
 DATA.isMobile = /iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent);
 DATA.animationTime = 200
-DATA.debug = true
+DATA.debug = false
 
 // audio
 DATA.sfxActive = true
